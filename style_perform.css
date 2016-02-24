@@ -1,0 +1,148 @@
+
+/* En tête */
+header
+{
+	background-image: url("../images/My_Header.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 235px;
+	color:white;
+}
+header a {
+	font-family: 'Orbitron', sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	text-decoration:none;
+	border-bottom: 2px black solid;
+	color:white;
+}
+#firstTitle {
+	font-family: 'Londrina Shadow', cursive;
+	margin: 10px 0 0 20px;
+	text-align: left;
+	font-size: 100px;
+}
+#secondTitle {
+	font-family: 'Londrina Shadow', cursive;
+	position: relative;
+	margin: -15px 20px 0 0;
+	text-align: right;
+	font-size: 120px;
+}
+
+
+/* page */
+body {
+	background: url("../images/background.jpg");
+	background-position:center;
+}
+
+
+/* Menu */
+ #menu {
+	padding: 10px;
+	margin: 0px auto;
+	background: rgba(0,0,0,0.4);
+	text-align: center;
+}
+.limenu{
+	display: inline;
+	padding: 0px 80px 0px 80px;
+}
+section div {
+  height: 600px;
+  width: 900px;
+  background-size: cover;
+  position: relative;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+h2 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size:20px;
+  color: black;
+  margin: 100px 0 70px 0;
+}
+section p {
+  border-radius:20px;
+  color: rgba(255,255,255,1);
+  background: black;
+  font-family: 'Orbitron', cursive;
+  font-size: 20px;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 30px;
+  width: 98%;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+section small {
+	font-family: 'Orbitron', cursive;
+  font-size: 15px;
+}
+
+.charlene1{
+  background-image: url("../images/Artists/charlene1.jpg");
+}
+.charlene2{
+  background-image: url("../images/Artists/charlene2.jpg");
+}
+.charlene3{
+  background-image: url("../images/Artists/charlene3.jpg");
+}
+.flying-mendonca1{
+  background-image: url("../images/Artists/flying-mendonca-1.jpg");
+}
+.flying-mendonca2{
+  background-image: url("../images/Artists/flying-mendonca-2.jpg");
+}
+.flying-mendonca3{
+  background-image: url("../images/Artists/flying-mendonca-3.jpg");
+}
+.elephant-lady1{
+  background-image: url("../images/Artists/elephant-lady-1.jpg");
+}
+.elephant-lady2{
+  background-image: url("../images/Artists/elephant-lady-2.jpg");
+}
+.elephant-lady3{
+  background-image: url("../images/Artists/elephant-lady-3.jpg");
+}
+  
+/* Pied de page */
+footer {
+  margin:50px;
+    text-align: left;
+    max-width: 100%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana, arial, sans-serif;
+    color: white;
+    font-size: 0.7em;
+    background-color: rgba(0,0,0,0.5);
+}
+footer p {
+  padding-left: 40px;
+  margin-left: 50px;
+}
+footer ul {
+    list-style-type: none;
+    display: block;
+    margin-left: 50px;
+}
+footer #home, #tour, #Wild_circus, #contact {
+  margin-top: 0;
+  display: inline-block;
+  position: relative;
+  padding: 0px 50px 0px 50px;
+}
+footer a {
+  text-decoration: none;
+    color: white;
+}
